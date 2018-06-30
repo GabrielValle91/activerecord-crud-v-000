@@ -24,7 +24,7 @@ end
 
 def can_be_created_in_a_block(args = {})
   if args == {}
-    movie = Movie.create
+    movie = Movie.new
     movie.title = "Home Alone"
     movie.release_date = 1900
   else
