@@ -9,8 +9,3 @@ class CreateMovies < ActiveRecord::Migration
     end
   end
 end
-itle: "The Sting",
-release_date: 1973,
-director: "George Roy Hill",
-lead: "Paul Newman",
-in_theaters: false
