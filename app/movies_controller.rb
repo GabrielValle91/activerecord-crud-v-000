@@ -24,11 +24,11 @@ end
 
 def can_be_created_in_a_block(args = {})
   Movie.create do |m|
-    :title = args[0]
-    :release_date = args[1]
-    :director = args[2]
-    :lead = args[3]
-    :in_theaters = args[4]
+    :title => args[0]
+    :release_date => args[1]
+    :director => args[2]
+    :lead => args[3]
+    :in_theaters => args[4]
   end
 end
 
